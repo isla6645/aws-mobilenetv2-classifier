@@ -1,0 +1,7 @@
+boto3
+sagemaker
+torch
+torchvision
+pillow
+numpy
+requests

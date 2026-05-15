@@ -1,0 +1,89 @@
+Request 1: Cat
+Status: 200
+Latency seconds: 1.379
+Prediction: Egyptian cat
+Confidence: 0.0629730299115181
+Raw response: {"prediction": "Egyptian cat", "confidence": 0.0629730299115181, "class_id": 285}
+------------------------------------------------------------
+Request 2: Dog 1
+Status: 200
+Latency seconds: 1.534
+Prediction: golden retriever
+Confidence: 0.34094029664993286
+Raw response: {"prediction": "golden retriever", "confidence": 0.34094029664993286, "class_id": 207}
+------------------------------------------------------------
+Request 3: Dog 2
+Status: 200
+Latency seconds: 1.077
+Prediction: Border collie
+Confidence: 0.240706667304039
+Raw response: {"prediction": "Border collie", "confidence": 0.240706667304039, "class_id": 232}
+------------------------------------------------------------
+Request 4: Car
+Status: 200
+Latency seconds: 1.180
+Prediction: grille
+Confidence: 0.16849248111248016
+Raw response: {"prediction": "grille", "confidence": 0.16849248111248016, "class_id": 581}
+------------------------------------------------------------
+Request 5: Coffee
+Status: 200
+Latency seconds: 2.001
+Prediction: espresso
+Confidence: 0.08673598617315292
+Raw response: {"prediction": "espresso", "confidence": 0.08673598617315292, "class_id": 967}
+------------------------------------------------------------
+Request 6: Apple
+Status: 200
+Latency seconds: 1.075
+Prediction: pomegranate
+Confidence: 0.2624540627002716
+Raw response: {"prediction": "pomegranate", "confidence": 0.2624540627002716, "class_id": 957}
+------------------------------------------------------------
+Request 7: Bird
+Status: 200
+Latency seconds: 1.241
+Prediction: jacamar
+Confidence: 0.07139670848846436
+Raw response: {"prediction": "jacamar", "confidence": 0.07139670848846436, "class_id": 95}
+------------------------------------------------------------
+Request 8: Laptop
+Status: 200
+Latency seconds: 1.242
+Prediction: notebook
+Confidence: 0.10122451186180115
+Raw response: {"prediction": "notebook", "confidence": 0.10122451186180115, "class_id": 681}
+------------------------------------------------------------
+Request 9: Backpack
+Status: 200
+Latency seconds: 1.479
+Prediction: backpack
+Confidence: 0.17731346189975739
+Raw response: {"prediction": "backpack", "confidence": 0.17731346189975739, "class_id": 414}
+------------------------------------------------------------
+Request 10: Bicycle
+Status: 200
+Latency seconds: 1.239
+Prediction: bicycle-built-for-two
+Confidence: 0.18447145819664001
+Raw response: {"prediction": "bicycle-built-for-two", "confidence": 0.18447145819664001, "class_id": 444}
+------------------------------------------------------------
+SUMMARY
+Average latency: 1.345 seconds
+Median latency: 1.242 seconds
+Minimum latency: 1.075 seconds
+Maximum latency: 2.001 seconds
+
+REPORT TABLE
+| Request | Image | Latency seconds | Prediction | Confidence | Status |
+|---:|---|---:|---|---:|---:|
+| 1 | Cat | 1.379 | Egyptian cat | 0.0630 | 200 |
+| 2 | Dog 1 | 1.534 | golden retriever | 0.3409 | 200 |
+| 3 | Dog 2 | 1.077 | Border collie | 0.2407 | 200 |
+| 4 | Car | 1.180 | grille | 0.1685 | 200 |
+| 5 | Coffee | 2.001 | espresso | 0.0867 | 200 |
+| 6 | Apple | 1.075 | pomegranate | 0.2625 | 200 |
+| 7 | Bird | 1.241 | jacamar | 0.0714 | 200 |
+| 8 | Laptop | 1.242 | notebook | 0.1012 | 200 |
+| 9 | Backpack | 1.479 | backpack | 0.1773 | 200 |
+| 10 | Bicycle | 1.239 | bicycle-built-for-two | 0.1845 | 200 |
